@@ -7,7 +7,7 @@
 constexpr double pi = 3.1415926535;
 
 class Circle {
-  private:
+ private:
     double radius;
     double ference;
     double area;
@@ -15,7 +15,7 @@ class Circle {
     void updateFerence();
     void updateArea();
 
-  public:
+ public:
     Circle() : radius(0.0), ference(0.0), area(0.0) {}
     explicit Circle(double r);
 

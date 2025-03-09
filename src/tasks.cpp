@@ -1,7 +1,7 @@
 // Copyright 2025 UNN-CS Team
 #include "tasks.h"
-#include "circle.h"
 #include <cmath>
+#include "circle.h"
 
 double calculateEarthRopeGap() {
     const double earthRadius = 6378100;
